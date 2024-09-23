@@ -1,0 +1,27 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=PhpStorm
+
+###
+
+###
+GET http://localhost/api/v1/ingredient
+
+###
+GET http://localhost/api/v1/ingredient/1
+
+###
+PATCH http://localhost/api/v1/ingredient/1
+
+{
+    "unit_calories": 110
+}
+###
+POST http://localhost/api/v1/ingredient
+
+{
+    "name" : "ingredient_2",
+    "unit_type": "amount",
+    "unit_calories": 100
+}
+###
